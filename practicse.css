@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+/* using flex box */
+/* .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* using grid */
+/* .parent {
+  display: grid;
+  place-items: center; 
+} */
+
+/* using margin - 1*/
+/* .parent {
+  display: grid;
+}
+.child {
+  margin: auto;
+} */
+
+/* using absolute  */
+/* .parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
